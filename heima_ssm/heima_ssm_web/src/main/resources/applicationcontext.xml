@@ -15,9 +15,11 @@
 
 
     <!-- 开启注解扫描，管理service和dao -->
-    <context:component-scan base-package="com.itheima.ssm.service">
+    <context:component-scan base-package="cn.itcast.ssm.service">
     </context:component-scan>
-    <context:component-scan base-package="com.itheima.ssm.dao">
+    <context:component-scan base-package="cn.itcast.ssm.dao">
+    </context:component-scan>
+    <context:component-scan base-package="cn.itcast.ssm.controller">
     </context:component-scan>
 
     <context:property-placeholder location="classpath:db.properties"/>
@@ -28,28 +30,21 @@
         <property name="user" value="${jdbc.username}" />
         <property name="password" value="${jdbc.password}" />
     </bean>
+  <!--  &lt;!&ndash;配置数据源&ndash;&gt;
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql:///ssm"></property>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>-->
     <!-- 把交给IOC管理 SqlSessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
-        <!-- 传入PageHelper的插件 -->
-        <property name="plugins">
-            <array>
-                <!-- 传入插件的对象 -->
-                <bean class="com.github.pagehelper.PageInterceptor">
-                    <property name="properties">
-                        <props>
-                            <prop key="helperDialect">mysql</prop>
-                            <prop key="reasonable">true</prop>
-                        </props>
-                    </property>
-                </bean>
-            </array>
-        </property>
     </bean>
 
     <!-- 扫描dao接口 -->
     <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.itheima.ssm.dao"/>
+        <property name="basePackage" value="cn.itcast.ssm.dao"/>
     </bean>
 
     <!-- 配置Spring的声明式事务管理 -->
