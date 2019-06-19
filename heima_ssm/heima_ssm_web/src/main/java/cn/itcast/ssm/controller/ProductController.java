@@ -1,5 +1,6 @@
 package cn.itcast.ssm.controller;
 
+import cn.itcast.ssm.domain.Orders;
 import cn.itcast.ssm.domain.Product;
 import cn.itcast.ssm.service.ProductService;
 import com.github.pagehelper.PageInfo;
@@ -32,6 +33,13 @@ public class ProductController {
         productService.save(product);
         return "redirect:findAll";
     }
-
+    @RequestMapping("/findById")
+    public ModelAndView findById(@RequestParam(name = "id",required = true)String id) throws Exception {
+        ModelAndView mv=new ModelAndView();
+        Product product = productService.findById(id);
+        mv.addObject("products",product);
+        mv.setViewName("product-show");
+        return mv;
+    }
 
 }

@@ -26,4 +26,10 @@ public class ProductServiceImpl implements ProductService {
     public void save(Product product) {
         productDao.save(product);
     }
+
+    @Override
+    public Product findById(String id) {
+        Product product = productDao.findById(id);
+        return product;
+    }
 }

@@ -10,4 +10,6 @@ public interface ProductService {
     List<Product> findAll(int page,int size);
     //保存产品的方法
     void save(Product product);
+    //根据id查询详情
+    Product findById(String id);
 }
