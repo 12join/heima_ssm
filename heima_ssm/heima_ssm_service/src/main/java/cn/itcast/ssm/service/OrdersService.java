@@ -8,4 +8,7 @@ import java.util.List;
 public interface OrdersService {
 
     List<Orders> findAll(int page,int size) throws Exception;
+
+    //根据id查询详情
+    Orders findById(String id) throws  Exception;
 }
