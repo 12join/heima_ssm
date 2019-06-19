@@ -242,7 +242,7 @@
 								<tbody>
 
 
-									<c:forEach items="${ordersList}" var="orders">
+									<c:forEach items="${pageInfo.list}" var="orders">
 
 										<tr>
 											<td><input name="ids" type="checkbox"></td>
@@ -274,34 +274,7 @@
 							<!--数据列表/-->
 
 							<!--工具栏-->
-							<div class="pull-left">
-								<div class="form-group form-inline">
-									<div class="btn-group">
-										<button type="button" class="btn btn-default" title="新建">
-											<i class="fa fa-file-o"></i> 新建
-										</button>
-										<button type="button" class="btn btn-default" title="删除">
-											<i class="fa fa-trash-o"></i> 删除
-										</button>
-										<button type="button" class="btn btn-default" title="开启">
-											<i class="fa fa-check"></i> 开启
-										</button>
-										<button type="button" class="btn btn-default" title="屏蔽">
-											<i class="fa fa-ban"></i> 屏蔽
-										</button>
-										<button type="button" class="btn btn-default" title="刷新">
-											<i class="fa fa-refresh"></i> 刷新
-										</button>
-									</div>
-								</div>
-							</div>
-							<div class="box-tools pull-right">
-								<div class="has-feedback">
-									<input type="text" class="form-control input-sm"
-										placeholder="搜索"> <span
-										class="glyphicon glyphicon-search form-control-feedback"></span>
-								</div>
-							</div>
+						
 							<!--工具栏/-->
 
 						</div>
@@ -315,8 +288,8 @@
                 <div class="box-footer">
                     <div class="pull-left">
                         <div class="form-group form-inline">
-                            总共2 页，共14 条数据。 每页
-                            <select class="form-control">
+                            总共${pageInfo.pages}页，共${pageInfo.total}条数据。 每页
+                            <select class="form-control" id="changePageSize" onchange="changePageSize()">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -329,17 +302,15 @@
                     <div class="box-tools pull-right">
                         <ul class="pagination">
                             <li>
-                                <a href="#" aria-label="Previous">首页</a>
+                                <a href="${pageContext.request.contextPath}/orders/findAll?page=1&size=${pageInfo.pageSize}" aria-label="Previous">首页</a>
                             </li>
-                            <li><a href="#">上一页</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">下一页</a></li>
+                            <li><a href="${pageContext.request.contextPath}/orders/findAll?page=${pageInfo.pageNum-1}&size=${pageInfo.pageSize}">上一页</a></li>
+                            <c:forEach begin="1" end="${pageInfo.pages}" var="info">
+                                <li><a href="${pageContext.request.contextPath}/orders/findAll?page=${info}&size=${pageInfo.pageSize}">${info}</a></li>
+                            </c:forEach>
+                            <li><a href="${pageContext.request.contextPath}/orders/findAll?page=${pageInfo.pageNum+1}&size=${pageInfo.pageSize}">下一页</a></li>
                             <li>
-                                <a href="#" aria-label="Next">尾页</a>
+                                <a href="${pageContext.request.contextPath}/orders/findAll?page=${pageInfo.pages}&size=${pageInfo.pageSize}" aria-label="Next">尾页</a>
                             </li>
                         </ul>
                     </div>
@@ -465,7 +436,7 @@
 			var pageSize = $("#changePageSize").val();
 
 			//向服务器发送请求，改变没页显示条数
-			location.href = "${pageContext.request.contextPath}/orders/findAll.do?page=1&pageSize="
+			location.href = "${pageContext.request.contextPath}/orders/findAll?page=1&size="
 					+ pageSize;
 		}
 		$(document).ready(function() {
