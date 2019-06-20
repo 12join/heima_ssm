@@ -180,3 +180,6 @@
 0:0:0:0:0:0:0:1 - - [20/Jun/2019:17:35:47 +0800] "POST /product/open HTTP/1.1" 302 - http-bio-80-exec-10 14
 0:0:0:0:0:0:0:1 - - [20/Jun/2019:17:35:47 +0800] "GET /product/findAll HTTP/1.1" 200 21998 http-bio-80-exec-10 25
 0:0:0:0:0:0:0:1 - - [20/Jun/2019:17:35:50 +0800] "GET /product/findAll?page=2&size=2 HTTP/1.1" 200 22006 http-bio-80-exec-10 17
+0:0:0:0:0:0:0:1 - - [20/Jun/2019:17:44:07 +0800] "GET /orders/findAll HTTP/1.1" 200 23966 http-bio-80-exec-2 2819
+0:0:0:0:0:0:0:1 - - [20/Jun/2019:17:44:27 +0800] "POST /orders/close HTTP/1.1" 200 20591 http-bio-80-exec-3 50
+0:0:0:0:0:0:0:1 - - [20/Jun/2019:17:44:30 +0800] "GET /orders/findAll HTTP/1.1" 200 23966 http-bio-80-exec-4 33

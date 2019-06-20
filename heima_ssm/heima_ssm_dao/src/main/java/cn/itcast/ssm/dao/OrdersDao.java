@@ -47,4 +47,7 @@ public interface OrdersDao {
     //修改状态,设为开启
     @Update("update  orders set  orderStatus=1 where id=#{id}")
     void openStatus(String id);
+    //修改状态,设为关闭
+    @Update("update  orders set  orderStatus=0 where id=#{id}")
+    void close(String id);
 }

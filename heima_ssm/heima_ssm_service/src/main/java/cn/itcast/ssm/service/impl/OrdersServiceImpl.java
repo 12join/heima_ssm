@@ -44,4 +44,14 @@ public class OrdersServiceImpl implements OrdersService {
             }
         }
     }
+
+    @Override
+    public void close(List<String> delList) {
+        for (String id : delList) {
+            Integer  productStatus  = ordersDao.open(id);
+            if( productStatus ==1){
+                ordersDao.close(id);
+            }
+        }
+    }
 }

@@ -64,4 +64,18 @@ public class OrderController {
         mv.setViewName("orders-list");
         return mv;
     }
+
+    @RequestMapping("/close")
+    public ModelAndView close(HttpServletRequest request, HttpServletResponse response){
+        ModelAndView mv=new ModelAndView();
+        String deletes = request.getParameter("open");
+        List<String> delList=new ArrayList<String>();
+        String[] delete = deletes.split(",");
+        for (String string : delete) {
+            delList.add(string);
+        }
+        ordersService.close(delList);
+        mv.setViewName("orders-list");
+        return mv;
+    }
 }

@@ -15,4 +15,6 @@ public interface OrdersService {
     void remover(List<String> delList);
     //定义开启的方法
     void open(List<String> delList);
+    //定义关闭的方法
+    void close(List<String> delList);
 }
