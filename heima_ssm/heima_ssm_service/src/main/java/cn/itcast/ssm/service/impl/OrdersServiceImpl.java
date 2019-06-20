@@ -27,4 +27,11 @@ public class OrdersServiceImpl implements OrdersService {
         Orders orders = ordersDao.findById(id);
         return orders;
     }
+
+    @Override
+    public void remover(List<String> delList) {
+        for (String id : delList) {
+            ordersDao.remover(id);
+        }
+    }
 }

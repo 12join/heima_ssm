@@ -45,8 +45,8 @@ public class ProductController {
         return mv;
     }
     @RequestMapping("/remover")
-    public ModelAndView remove(HttpServletRequest request, HttpServletResponse response){
-        ModelAndView mv=new ModelAndView();
+    public String remove(HttpServletRequest request, HttpServletResponse response){
+       // ModelAndView mv=new ModelAndView();
         String deletes = request.getParameter("deletes");
         List<String> delList=new ArrayList<String>();
         String[] delete = deletes.split(",");
@@ -54,8 +54,8 @@ public class ProductController {
             delList.add(string);
         }
         productService.remover(delList);
-        mv.setViewName("product-list");
-        return mv;
+        //mv.setViewName("product-list");
+        return "redirect:findAll";
     }
 
 }

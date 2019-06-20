@@ -37,4 +37,8 @@ public interface OrdersDao {
             @Result(property = "travellers",column = "id",javaType = java.util.List.class,many = @Many(select = "cn.itcast.ssm.dao.TravellerDao.findById"))
     })
     Orders findById(String id);
+
+
+    @Delete("delete from orders where id=#{id}")
+    void remover(String id);
 }

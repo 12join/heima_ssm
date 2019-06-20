@@ -11,4 +11,6 @@ public interface OrdersService {
 
     //根据id查询详情
     Orders findById(String id) throws  Exception;
+    //删除订单信息
+    void remover(List<String> delList);
 }

@@ -198,7 +198,7 @@
 											onclick="location.href='${pageContext.request.contextPath}/pages/product-add.jsp'">
 											<i class="fa fa-file-o"></i> 新建
 										</button>
-										<button type="button" class="btn btn-default" title="删除">
+										<button type="button" class="btn btn-default" title="删除" onclick="func_removeItems()">
 											<i class="fa fa-trash-o"></i> 删除
 										</button>
 										<button type="button" class="btn btn-default" title="开启">
@@ -245,7 +245,7 @@
 									<c:forEach items="${pageInfo.list}" var="orders">
 
 										<tr>
-											<td><input name="ids" type="checkbox"></td>
+											<td><input name="ids" type="checkbox" value="${orders.id}"></td>
 											<td>${orders.id }</td>
 											<td>${orders.orderNum }</td>
 											<td>${orders.product.productName }</td>
@@ -431,6 +431,28 @@
 	<script
 		src="${pageContext.request.contextPath}/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
 	<script>
+        //定义删除的方法
+        function func_removeItems() {
+            //判断复选框的数量
+            var checkId= $("input[name='ids']:checked").length;
+            alert(checkId);
+            if(checkId==0){
+                alert("请至少选择一项");
+                return false;
+            }
+            if(confirm("确定删除选中的产品")){
+                var checkedList = new Array();
+                $("input[name='ids']:checked").each(function () {
+                    checkedList.push($(this).val())
+                });
+                alert(checkedList);
+                $.ajax({
+                    type:"post",
+                    url:"${pageContext.request.contextPath}/orders/remover",
+                    data:{"deletes":checkedList.toString()}
+                });
+            }
+        }
 		function changePageSize() {
 			//获取下拉框的值
 			var pageSize = $("#changePageSize").val();
