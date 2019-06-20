@@ -41,4 +41,10 @@ public interface OrdersDao {
 
     @Delete("delete from orders where id=#{id}")
     void remover(String id);
+    //通过id查询状态
+    @Select("select orderStatus from orders where id=#{id}")
+    Integer open(String id);
+    //修改状态,设为开启
+    @Update("update  orders set  orderStatus=1 where id=#{id}")
+    void openStatus(String id);
 }

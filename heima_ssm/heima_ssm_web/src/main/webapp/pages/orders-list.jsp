@@ -201,13 +201,13 @@
 										<button type="button" class="btn btn-default" title="删除" onclick="func_removeItems()">
 											<i class="fa fa-trash-o"></i> 删除
 										</button>
-										<button type="button" class="btn btn-default" title="开启">
+										<button type="button" class="btn btn-default" title="开启" onclick="func_startStatus()">
 											<i class="fa fa-check"></i> 开启
 										</button>
 										<button type="button" class="btn btn-default" title="屏蔽">
 											<i class="fa fa-ban"></i> 屏蔽
 										</button>
-										<button type="button" class="btn btn-default" title="刷新">
+										<button type="button" class="btn btn-default" title="刷新" onclick="func_findAll()">
 											<i class="fa fa-refresh"></i> 刷新
 										</button>
 									</div>
@@ -452,6 +452,34 @@
                     data:{"deletes":checkedList.toString()}
                 });
             }
+        }
+        //定义开启的方法
+        function func_startStatus() {
+            //判断复选框的数量
+            var checkId= $("input[name='ids']:checked").length;
+            if(checkId==0){
+                alert("请至少选择一项");
+                return false;
+            }
+            if(confirm("确定改变状态")){
+                var checkedList = new Array();
+                $("input[name='ids']:checked").each(function () {
+                    checkedList.push($(this).val())
+                });
+                alert(checkedList);
+                $.ajax({
+                    type:"post",
+                    url:"${pageContext.request.contextPath}/orders/open",
+                    data:{"open":checkedList.toString()}
+                });
+            }
+        }
+        //定义刷新的方法
+        function func_findAll() {
+            $.ajax({
+                type:"post",
+                url:"${pageContext.request.contextPath}/orders/findAll",
+            });
         }
 		function changePageSize() {
 			//获取下拉框的值

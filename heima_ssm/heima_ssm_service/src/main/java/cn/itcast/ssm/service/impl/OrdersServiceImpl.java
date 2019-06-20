@@ -34,4 +34,14 @@ public class OrdersServiceImpl implements OrdersService {
             ordersDao.remover(id);
         }
     }
+
+    @Override
+    public void open(List<String> delList) {
+        for (String id : delList) {
+            Integer  productStatus  = ordersDao.open(id);
+            if( productStatus ==0){
+                ordersDao.openStatus(id);
+            }
+        }
+    }
 }
