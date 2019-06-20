@@ -97,20 +97,15 @@
 				<section class="content"> <!--产品信息-->
 
 				<div class="panel panel-default">
-					<div class="panel-heading">产品信息</div>
+					<div class="panel-heading">订单信息</div>
 					<div class="row data-type">
 
-						<div class="col-md-2 title">产品编号</div>
+						<div class="col-md-2 title">订单编号</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="productNum"
-								placeholder="产品编号" value="">
+								placeholder="订单编号" value="">
 						</div>
-						<div class="col-md-2 title">产品名称</div>
-						<div class="col-md-4 data">
-							<input type="text" class="form-control" name="productName"
-								placeholder="产品名称" value="">
-						</div>
-						<div class="col-md-2 title">出发时间</div>
+						<div class="col-md-2 title">订单时间</div>
 						<div class="col-md-4 data">
 							<div class="input-group date">
 								<div class="input-group-addon">
@@ -120,8 +115,11 @@
 									id="datepicker-a3" name="departureTime">
 							</div>
 						</div>
-
-
+						<div class="col-md-2 title">订单人数</div>
+						<div class="col-md-4 data">
+							<input type="text" class="form-control" name="productName"
+								   placeholder="订单人数" value="">
+						</div>
 						<div class="col-md-2 title">出发城市</div>
 						<div class="col-md-4 data">
 							<input type="text" class="form-control" name="cityName"
