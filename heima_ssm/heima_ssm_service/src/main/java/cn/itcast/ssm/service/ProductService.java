@@ -12,4 +12,6 @@ public interface ProductService {
     void save(Product product);
     //根据id查询详情
     Product findById(String id);
+    //删除产品信息
+    void remover(List<String> delList);
 }

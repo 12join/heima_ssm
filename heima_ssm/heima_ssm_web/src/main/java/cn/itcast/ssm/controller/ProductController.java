@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -39,6 +42,19 @@ public class ProductController {
         Product product = productService.findById(id);
         mv.addObject("products",product);
         mv.setViewName("product-show");
+        return mv;
+    }
+    @RequestMapping("/remover")
+    public ModelAndView remove(HttpServletRequest request, HttpServletResponse response){
+        ModelAndView mv=new ModelAndView();
+        String deletes = request.getParameter("deletes");
+        List<String> delList=new ArrayList<String>();
+        String[] delete = deletes.split(",");
+        for (String string : delete) {
+            delList.add(string);
+        }
+        productService.remover(delList);
+        mv.setViewName("product-list");
         return mv;
     }
 

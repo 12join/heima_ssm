@@ -169,7 +169,7 @@
 					数据管理 <small>数据列表</small>
 				</h1>
 				<ol class="breadcrumb">
-					<li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
+					<li><a href="${pageContext.request.contextPath}/pages/main.jsp"><i class="fa fa-dashboard"></i> 首页</a></li>
 					<li><a href="#">数据管理</a></li>
 					<li class="active">数据列表</li>
 				</ol>
@@ -198,11 +198,11 @@
 											onclick="location.href='${pageContext.request.contextPath}/pages/product-add.jsp'">
 											<i class="fa fa-file-o"></i> 新建
 										</button>
-										<button type="button" class="btn btn-default" title="删除">
+										<button type="button" class="btn btn-default" title="删除" onclick="func_removeItems()">
 											<i class="fa fa-trash-o"></i> 删除
 										</button>
-										<button type="button" class="btn btn-default" title="开启">
-											<i class="fa fa-check"></i> 开启
+										<button type="button" class="btn btn-default" title="修改">
+											<i class="fa fa-check"></i> 修改
 										</button>
 										<button type="button" class="btn btn-default" title="屏蔽">
 											<i class="fa fa-ban"></i> 屏蔽
@@ -247,7 +247,8 @@
 									<c:forEach items="${pageInfo.list}" var="product">
 
 										<tr>
-											<td><input name="ids" type="checkbox"></td>
+											<%--把产品id拿出放入复选框的值,方便获取--%>
+											<td><input name="ids" type="checkbox" value="${product.id}"></td>
 											<td>${product.id }</td>
 											<td>${product.productNum }</td>
 											<td>${product.productName }</td>
@@ -305,13 +306,13 @@
 
 						<div class="box-tools pull-right">
 							<ul class="pagination">
-								<li><a href="${pageContext.request.contextPath}/orders/findAll?page=1&size=${pageInfo.pageSize}" aria-label="Previous">首页</a></li>
-								<li><a href="${pageContext.request.contextPath}/orders/findAll?page=${pageInfo.pageNum-1}&size=${pageInfo.pageSize}">上一页</a></li>
+								<li><a href="${pageContext.request.contextPath}/product/findAll?page=1&size=${pageInfo.pageSize}" aria-label="Previous">首页</a></li>
+								<li><a href="${pageContext.request.contextPath}/product/findAll?page=${pageInfo.pageNum-1}&size=${pageInfo.pageSize}">上一页</a></li>
 								<c:forEach begin="1" end="${pageInfo.pages}" var="info">
-									<li><a href="${pageContext.request.contextPath}/orders/findAll?page=${info}&size=${pageInfo.pageSize}">${info}</a></li>
+									<li><a href="${pageContext.request.contextPath}/product/findAll?page=${info}&size=${pageInfo.pageSize}">${info}</a></li>
 								</c:forEach>
-								<li><a href="${pageContext.request.contextPath}/orders/findAll?page=${pageInfo.pageNum+1}&size=${pageInfo.pageSize}">下一页</a></li>
-								<li><a href="${pageContext.request.contextPath}/orders/findAll?page=${pageInfo.pages}&size=${pageInfo.pageSize}" aria-label="Next">尾页</a></li>
+								<li><a href="${pageContext.request.contextPath}/product/findAll?page=${pageInfo.pageNum+1}&size=${pageInfo.pageSize}">下一页</a></li>
+								<li><a href="${pageContext.request.contextPath}/product/findAll?page=${pageInfo.pages}&size=${pageInfo.pageSize}" aria-label="Next">尾页</a></li>
 							</ul>
 						</div>
 
@@ -431,6 +432,28 @@
 	<script
 		src="${pageContext.request.contextPath}/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
 	<script>
+		//定义删除的方法
+        function func_removeItems() {
+            //判断复选框的数量
+			var checkId= $("input[name='ids']:checked").length;
+			alert(checkId);
+			if(checkId==0){
+			    alert("请至少选择一项");
+			    return false;
+			}
+			if(confirm("确定删除选中的产品")){
+			    var checkedList = new Array();
+                $("input[name='ids']:checked").each(function () {
+					checkedList.push($(this).val())
+                });
+                alert(checkedList);
+                $.ajax({
+					type:"post",
+					url:"${pageContext.request.contextPath}/product/remover",
+					data:{"deletes":checkedList.toString()}
+				});
+			}
+        }
 		function changePageSize() {
             //获取下拉框的值
 		    var pageSize = $("#changePageSize").val();

@@ -32,4 +32,11 @@ public class ProductServiceImpl implements ProductService {
         Product product = productDao.findById(id);
         return product;
     }
+
+    @Override
+    public void remover(List<String> delList) {
+        for (String id : delList) {
+            productDao.remover(id);
+        }
+    }
 }
