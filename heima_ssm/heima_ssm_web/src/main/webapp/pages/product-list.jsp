@@ -294,11 +294,11 @@
 							<div class="form-group form-inline">
 								总共${pageInfo.pages}页，共${pageInfo.total} 条数据。 每页
 								<select class="form-control" id="changePageSize" onchange="changePageSize()">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
+									<option <c:if test="${pageInfo.pageSize==1}">selected="selected"</c:if>>1</option>
+									<option <c:if test="${pageInfo.pageSize==2}">selected="selected"</c:if>>2</option>
+									<option <c:if test="${pageInfo.pageSize==3}">selected="selected"</c:if>>3</option>
+									<option <c:if test="${pageInfo.pageSize==4}">selected="selected"</c:if>>4</option>
+									<option <c:if test="${pageInfo.pageSize==5}">selected="selected"</c:if>>5</option>
 								</select> 条
 							</div>
 						</div>
