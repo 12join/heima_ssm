@@ -39,4 +39,14 @@ public class ProductServiceImpl implements ProductService {
             productDao.remover(id);
         }
     }
+
+    @Override
+    public void open(List<String> delList) {
+        for (String id : delList) {
+            Integer  productStatus  = productDao.open(id);
+            if( productStatus ==0){
+                productDao.openStatus(id);
+            }
+        }
+    }
 }

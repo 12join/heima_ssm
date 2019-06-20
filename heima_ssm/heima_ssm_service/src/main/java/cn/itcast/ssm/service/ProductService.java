@@ -14,4 +14,6 @@ public interface ProductService {
     Product findById(String id);
     //删除产品信息
     void remover(List<String> delList);
+    //定义开启的方法
+    void open(List<String> delList);
 }

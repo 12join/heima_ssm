@@ -201,8 +201,8 @@
 										<button type="button" class="btn btn-default" title="删除" onclick="func_removeItems()">
 											<i class="fa fa-trash-o"></i> 删除
 										</button>
-										<button type="button" class="btn btn-default" title="修改">
-											<i class="fa fa-check"></i> 修改
+										<button type="button" class="btn btn-default" title="开启" onclick="func_startStatus()">
+											<i class="fa fa-check"></i> 开启
 										</button>
 										<button type="button" class="btn btn-default" title="屏蔽">
 											<i class="fa fa-ban"></i> 屏蔽
@@ -436,7 +436,6 @@
         function func_removeItems() {
             //判断复选框的数量
 			var checkId= $("input[name='ids']:checked").length;
-			alert(checkId);
 			if(checkId==0){
 			    alert("请至少选择一项");
 			    return false;
@@ -453,6 +452,28 @@
 					data:{"deletes":checkedList.toString()}
 				});
 			}
+        }
+
+        //定义开启的方法
+        function func_startStatus() {
+            //判断复选框的数量
+            var checkId= $("input[name='ids']:checked").length;
+            if(checkId==0){
+                alert("请至少选择一项");
+                return false;
+            }
+            if(confirm("确定改变状态")){
+                var checkedList = new Array();
+                $("input[name='ids']:checked").each(function () {
+                    checkedList.push($(this).val())
+                });
+                alert(checkedList);
+                $.ajax({
+                    type:"post",
+                    url:"${pageContext.request.contextPath}/product/open",
+                    data:{"open":checkedList.toString()}
+                });
+            }
         }
 
         //定义刷新的方法
