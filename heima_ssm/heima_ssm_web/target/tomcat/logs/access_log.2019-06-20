@@ -190,3 +190,6 @@
 0:0:0:0:0:0:0:1 - - [20/Jun/2019:22:53:19 +0800] "GET /pages/product-add.jsp HTTP/1.1" 200 13095 http-bio-80-exec-9 9
 0:0:0:0:0:0:0:1 - - [20/Jun/2019:22:53:25 +0800] "GET /orders/findAll HTTP/1.1" 200 23965 http-bio-80-exec-10 1959
 0:0:0:0:0:0:0:1 - - [20/Jun/2019:22:53:28 +0800] "GET /pages/orders-add.jsp HTTP/1.1" 200 13094 http-bio-80-exec-1 261
+0:0:0:0:0:0:0:1 - - [20/Jun/2019:23:03:18 +0800] "GET /product/findAll HTTP/1.1" 200 21998 http-bio-80-exec-2 1307
+0:0:0:0:0:0:0:1 - - [20/Jun/2019:23:04:51 +0800] "GET /pages/main.jsp HTTP/1.1" 200 12031 http-bio-80-exec-5 17
+0:0:0:0:0:0:0:1 - - [20/Jun/2019:23:06:00 +0800] "GET /pages/main.jsp HTTP/1.1" 200 12037 http-bio-80-exec-8 884

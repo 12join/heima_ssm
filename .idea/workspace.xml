@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a261fa86-2102-4e03-87b0-5ec5b4bb56a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-add.jsp" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-add.jsp" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/logs/access_log.2019-06-20" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/logs/access_log.2019-06-20" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/orders_002dlist_jsp.class" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/orders_002dlist_jsp.class" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/orders_002dlist_jsp.java" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/orders_002dlist_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/header.jsp" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/header.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/" />
     <ignored path="$PROJECT_DIR$/heima_ssm/target/" />
@@ -23,21 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product-list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp">
+      <file leaf-file-name="orders-list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="498" column="9" lean-forward="false" selection-start-line="478" selection-start-column="7" selection-end-line="498" selection-end-column="9" />
+            <state relative-caret-position="428">
+              <caret line="192" column="38" lean-forward="true" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orders-list.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp">
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="192" column="38" lean-forward="true" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
+            <state relative-caret-position="104">
+              <caret line="22" column="91" lean-forward="false" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -164,7 +160,6 @@
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/src/main/java/cn/itcast/ssm/dao/TravellerDao.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-show.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/aside.jsp" />
-        <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/header.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/ProductController.java" />
@@ -177,6 +172,7 @@
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/src/main/java/cn/itcast/ssm/dao/OrdersDao.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-add.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp" />
+        <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/header.jsp" />
       </list>
     </option>
   </component>
@@ -810,12 +806,12 @@
       <workItem from="1560904461098" duration="32497000" />
       <workItem from="1560995634765" duration="1537000" />
       <workItem from="1560997485876" duration="1380000" />
-      <workItem from="1560998981116" duration="24337000" />
+      <workItem from="1560998981116" duration="24644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63052000" />
+    <option name="totallyTimeSpent" value="63359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -830,7 +826,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23347548" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37486094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37486094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1123,14 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="31" column="96" lean-forward="false" selection-start-line="31" selection-start-column="96" selection-end-line="31" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-show.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5045">
@@ -1255,6 +1243,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="192" column="38" lean-forward="true" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="22" column="91" lean-forward="false" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
           <folding />
         </state>
       </provider>
