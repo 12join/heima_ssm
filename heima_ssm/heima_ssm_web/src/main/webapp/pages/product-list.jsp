@@ -207,7 +207,7 @@
 										<button type="button" class="btn btn-default" title="屏蔽">
 											<i class="fa fa-ban"></i> 屏蔽
 										</button>
-										<button type="button" class="btn btn-default" title="刷新">
+										<button type="button" class="btn btn-default" title="刷新" onclick="func_findAll()">
 											<i class="fa fa-refresh"></i> 刷新
 										</button>
 									</div>
@@ -453,6 +453,14 @@
 					data:{"deletes":checkedList.toString()}
 				});
 			}
+        }
+
+        //定义刷新的方法
+		function func_findAll() {
+            $.ajax({
+				type:"post",
+                url:"${pageContext.request.contextPath}/product/findAll",
+			});
         }
 		function changePageSize() {
             //获取下拉框的值
