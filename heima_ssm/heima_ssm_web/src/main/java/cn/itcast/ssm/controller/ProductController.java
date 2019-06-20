@@ -72,4 +72,18 @@ public class ProductController {
         return "redirect:findAll";
     }
 
+    @RequestMapping("/close")
+    public String close(HttpServletRequest request, HttpServletResponse response){
+        // ModelAndView mv=new ModelAndView();
+        String deletes = request.getParameter("open");
+        List<String> delList=new ArrayList<String>();
+        String[] delete = deletes.split(",");
+        for (String string : delete) {
+            delList.add(string);
+        }
+        productService.close(delList);
+        //mv.setViewName("product-list");
+        return "redirect:findAll";
+    }
+
 }

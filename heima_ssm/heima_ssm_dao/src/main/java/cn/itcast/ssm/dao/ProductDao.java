@@ -27,4 +27,7 @@ public interface ProductDao {
     //修改状态,设为开启
     @Update("update product set productStatus=1 where id=#{id}")
     void openStatus(String id);
+    //修改状态,设为关闭
+    @Update("update product set productStatus=0 where id=#{id}")
+    void closeStatus(String id);
 }

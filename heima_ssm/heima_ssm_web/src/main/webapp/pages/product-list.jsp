@@ -204,7 +204,7 @@
 										<button type="button" class="btn btn-default" title="开启" onclick="func_startStatus()">
 											<i class="fa fa-check"></i> 开启
 										</button>
-										<button type="button" class="btn btn-default" title="屏蔽">
+										<button type="button" class="btn btn-default" title="屏蔽" onclick="func_closeStatus()">
 											<i class="fa fa-ban"></i> 屏蔽
 										</button>
 										<button type="button" class="btn btn-default" title="刷新" onclick="func_findAll()">
@@ -471,6 +471,28 @@
                 $.ajax({
                     type:"post",
                     url:"${pageContext.request.contextPath}/product/open",
+                    data:{"open":checkedList.toString()}
+                });
+            }
+        }
+
+        //定义关闭的方法
+        function func_closeStatus() {
+            //判断复选框的数量
+            var checkId= $("input[name='ids']:checked").length;
+            if(checkId==0){
+                alert("请至少选择一项");
+                return false;
+            }
+            if(confirm("确定改变状态")){
+                var checkedList = new Array();
+                $("input[name='ids']:checked").each(function () {
+                    checkedList.push($(this).val())
+                });
+                alert(checkedList);
+                $.ajax({
+                    type:"post",
+                    url:"${pageContext.request.contextPath}/product/close",
                     data:{"open":checkedList.toString()}
                 });
             }

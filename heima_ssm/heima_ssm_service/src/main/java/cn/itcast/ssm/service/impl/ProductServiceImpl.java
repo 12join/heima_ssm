@@ -49,4 +49,14 @@ public class ProductServiceImpl implements ProductService {
             }
         }
     }
+
+    @Override
+    public void close(List<String> delList) {
+        for (String id : delList) {
+            Integer  productStatus  = productDao.open(id);
+            if( productStatus ==1){
+                productDao.closeStatus(id);
+            }
+        }
+    }
 }
