@@ -12,7 +12,7 @@
         <module>heima_ssm_domain</module>
         <module>heima_ssm_service</module>
         <module>heima_ssm_utils</module>
-        <!--<module>heima_ssm_web</module> web层,不需要依赖,降低缓存-->
+        <!--<module>heima_ssm_web</module>-->
     </modules>
     <packaging>pom</packaging>
 
