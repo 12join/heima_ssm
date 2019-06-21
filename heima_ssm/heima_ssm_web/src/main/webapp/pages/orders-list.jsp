@@ -207,7 +207,7 @@
 										<button type="button" class="btn btn-default" title="屏蔽" onclick="func_closeStatus()">
 											<i class="fa fa-ban"></i> 屏蔽
 										</button>
-										<button type="button" class="btn btn-default" title="刷新" onclick="func_findAll()">
+										<button type="button" class="btn btn-default" title="刷新" onclick="location.href='${pageContext.request.contextPath}/orders/findAll'">
 											<i class="fa fa-refresh"></i> 刷新
 										</button>
 									</div>
@@ -495,13 +495,7 @@
                 });
             }
         }
-        //定义刷新的方法
-        function func_findAll() {
-            $.ajax({
-                type:"post",
-                url:"${pageContext.request.contextPath}/orders/findAll",
-            });
-        }
+
 		function changePageSize() {
 			//获取下拉框的值
 			var pageSize = $("#changePageSize").val();

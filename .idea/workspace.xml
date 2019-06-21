@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a261fa86-2102-4e03-87b0-5ec5b4bb56a9" name="Default" comment="" />
+    <list default="true" id="a261fa86-2102-4e03-87b0-5ec5b4bb56a9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/target/heima_ssm_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/target/heima_ssm_dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/heima_ssm_domain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/heima_ssm_domain-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_service/target/heima_ssm_service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_service/target/heima_ssm_service-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_service/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_utils/target/heima_ssm_utils-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_utils/target/heima_ssm_utils-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_utils/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_utils/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/user-list.jsp" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/user-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/logs/access_log.2019-06-21" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/logs/access_log.2019-06-21" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.java" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/aside_jsp.java" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/aside_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/header_jsp.java" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/header_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/main_jsp.java" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/main_jsp.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/" />
     <ignored path="$PROJECT_DIR$/heima_ssm/target/" />
     <ignored path="$PROJECT_DIR$/heima_ssm/heima_ssm_web/target/" />
@@ -17,33 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/UserController.java">
+      <file leaf-file-name="orders-list.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="76" column="27" lean-forward="false" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+            <state relative-caret-position="269">
+              <caret line="209" column="162" lean-forward="false" selection-start-line="209" selection-start-column="162" selection-end-line="209" selection-end-column="162" />
               <folding />
             </state>
           </provider>
@@ -52,62 +48,40 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/springmvc.xml">
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="156">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="GrantedAuthority.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/GrantedAuthority.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IuserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/impl/IuserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="156">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1560869364208" expanded="false" signature="0:104" ph="/.../" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_dao/src/main/java/cn/itcast/ssm/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring_security.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spring_security.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/spring_security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="62" />
+            <state relative-caret-position="-52">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -116,11 +90,60 @@
       <file leaf-file-name="BCryptPasswordEncoderUtuils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_utils/src/main/java/cn/itcast/ssm/utuils/BCryptPasswordEncoderUtuils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/user-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="114" column="169" lean-forward="false" selection-start-line="114" selection-start-column="106" selection-end-line="114" selection-end-column="169" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="209" column="171" lean-forward="false" selection-start-line="209" selection-start-column="171" selection-end-line="209" selection-end-column="171" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="29" />
               <folding>
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BCryptPasswordEncoder.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <marker date="1560869364208" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1560869364208" expanded="false" signature="166:379" ph="..." />
+                <marker date="1560869364208" expanded="false" signature="617:628" ph=" { " />
+                <marker date="1560869364208" expanded="false" signature="637:643" ph=" }" />
+                <marker date="1560869364208" expanded="false" signature="691:702" ph=" { " />
+                <marker date="1560869364208" expanded="false" signature="737:743" ph=" }" />
+                <marker date="1560869364208" expanded="true" signature="813:1195" ph="{...}" />
+                <marker date="1560869364208" expanded="true" signature="1248:1629" ph="{...}" />
+                <marker date="1560869364208" expanded="true" signature="1708:2196" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -168,7 +191,6 @@
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/src/main/java/cn/itcast/ssm/dao/TravellerDao.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-show.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm/pom.xml" />
-        <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/ProductService.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/src/main/java/cn/itcast/ssm/dao/ProductDao.java" />
@@ -177,7 +199,6 @@
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/impl/OrdersServiceImpl.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/src/main/java/cn/itcast/ssm/dao/OrdersDao.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-add.jsp" />
-        <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/header.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/src/main/java/cn/itcast/ssm/domain/Permission.java" />
@@ -195,6 +216,9 @@
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/impl/IuserServiceImpl.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/src/main/java/cn/itcast/ssm/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/user-list.jsp" />
+        <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp" />
+        <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp" />
       </list>
     </option>
   </component>
@@ -227,42 +251,6 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="heima_ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
@@ -963,20 +951,19 @@
       <workItem from="1560995634765" duration="1537000" />
       <workItem from="1560997485876" duration="1380000" />
       <workItem from="1560998981116" duration="24722000" />
-      <workItem from="1561077257965" duration="24147000" />
+      <workItem from="1561077257965" duration="27651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87584000" />
+    <option name="totallyTimeSpent" value="91088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23294243" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23294243" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -992,7 +979,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23470522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23470522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24413647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1045,14 +1032,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/impl/UserServiceImpl.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1061,15 +1040,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-show.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="148" column="113" lean-forward="false" selection-start-line="148" selection-start-column="113" selection-end-line="148" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/com/github/pagehelper/PageInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -1133,14 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4992">
-          <caret line="192" column="38" lean-forward="false" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1177,14 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="499" column="0" lean-forward="false" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1272,17 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <marker date="1560869364208" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1560869364208" expanded="false" signature="169:278" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/org.springframework.security.core.userdetails.UserDetails">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1330,94 +1273,6 @@
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="44" column="182" lean-forward="false" selection-start-line="44" selection-start-column="182" selection-end-line="44" selection-end-column="182" />
-          <folding>
-            <marker date="1560869364208" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1560869364208" expanded="false" signature="169:1028" ph="..." />
-            <marker date="1560869364208" expanded="true" signature="1612:1690" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="1895:2480" ph="{...}" />
-            <marker date="1560869364208" expanded="false" signature="2538:2549" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="2573:2579" ph=" }" />
-            <marker date="1560869364208" expanded="false" signature="2612:2623" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="2644:2650" ph=" }" />
-            <marker date="1560869364208" expanded="false" signature="2683:2694" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="2715:2721" ph=" }" />
-            <marker date="1560869364208" expanded="false" signature="2753:2764" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="2784:2790" ph=" }" />
-            <marker date="1560869364208" expanded="false" signature="2832:2843" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="2873:2879" ph=" }" />
-            <marker date="1560869364208" expanded="false" signature="2920:2931" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="2960:2966" ph=" }" />
-            <marker date="1560869364208" expanded="false" signature="3012:3023" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="3057:3063" ph=" }" />
-            <marker date="1560869364208" expanded="false" signature="3099:3110" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="3131:3137" ph=" }" />
-            <marker date="1560869364208" expanded="true" signature="3254:3811" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="3851:3947" ph="{...}" />
-            <marker date="1560869364208" expanded="false" signature="3974:3985" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="4017:4023" ph=" }" />
-            <marker date="1560869364208" expanded="true" signature="4054:5168" ph="{...}" />
-            <marker date="1560869364208" expanded="false" signature="5234:5245" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="5281:5287" ph=" }" />
-            <marker date="1560869364208" expanded="false" signature="5333:5344" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="5374:5380" ph=" }" />
-            <marker date="1560869364208" expanded="true" signature="5386:5404" ph="/**...*/" />
-            <marker date="1560869364208" expanded="true" signature="5469:5843" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="5921:6256" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="6294:9452" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="6660:6770" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="6711:6759" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="6830:6969" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="7029:7168" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="7252:7395" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="7452:7984" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="8063:8151" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="8249:8344" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="8413:8522" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="8595:8681" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="8752:8836" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="8917:9011" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="9072:9146" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="9183:9446" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="9553:9962" ph="{...}" />
-            <marker date="1560869364208" expanded="true" signature="9653:9664" ph="{}" />
-            <marker date="1560869364208" expanded="true" signature="9735:9956" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/authority/SimpleGrantedAuthority.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <marker date="1560869364208" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1560869364208" expanded="false" signature="167:258" ph="..." />
-            <marker date="1560869364208" expanded="true" signature="466:587" ph="{...}" />
-            <marker date="1560869364208" expanded="false" signature="621:632" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="649:655" ph=" }" />
-            <marker date="1560869364208" expanded="true" signature="695:902" ph="{...}" />
-            <marker date="1560869364208" expanded="false" signature="929:940" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="968:974" ph=" }" />
-            <marker date="1560869364208" expanded="false" signature="1004:1015" ph=" { " />
-            <marker date="1560869364208" expanded="false" signature="1032:1038" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/GrantedAuthority.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <marker date="1560869364208" expanded="false" signature="0:104" ph="/.../" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1492,14 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/user-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2496">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/user-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1521,35 +1368,8 @@
         <state relative-caret-position="260">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_utils/src/main/java/cn/itcast/ssm/utuils/BCryptPasswordEncoderUtuils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="76" column="27" lean-forward="false" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1558,17 +1378,7 @@
         <state relative-caret-position="487">
           <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1578,16 +1388,8 @@
         <state relative-caret-position="650">
           <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1607,18 +1409,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/org.springframework.web.filter.DelegatingFilterProxy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.web.filter.DelegatingFilterProxy</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.web.filter.DelegatingFilterProxy</node>
+            <node x="" y="">org.springframework.web.context.ServletContextAware</node>
+            <node x="" y="">org.springframework.context.EnvironmentAware</node>
+            <node x="" y="">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="" y="">org.springframework.beans.factory.DisposableBean</node>
+            <node x="" y="">org.springframework.web.filter.GenericFilterBean</node>
+            <node x="" y="">org.springframework.beans.factory.Aware</node>
+            <node x="" y="">javax.servlet.Filter</node>
+            <node x="" y="">org.springframework.beans.factory.BeanNameAware</node>
+            <node x="" y="">org.springframework.beans.factory.InitializingBean</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="563.0" y="142.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/filter/DelegatingFilterProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="95" column="34" lean-forward="true" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="282">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/authority/SimpleGrantedAuthority.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <marker date="1560869364208" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560869364208" expanded="false" signature="169:1028" ph="..." />
+            <marker date="1560869364208" expanded="true" signature="1612:1690" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="1895:2480" ph="{...}" />
+            <marker date="1560869364208" expanded="false" signature="2538:2549" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="2573:2579" ph=" }" />
+            <marker date="1560869364208" expanded="false" signature="2612:2623" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="2644:2650" ph=" }" />
+            <marker date="1560869364208" expanded="false" signature="2683:2694" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="2715:2721" ph=" }" />
+            <marker date="1560869364208" expanded="false" signature="2753:2764" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="2784:2790" ph=" }" />
+            <marker date="1560869364208" expanded="false" signature="2832:2843" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="2873:2879" ph=" }" />
+            <marker date="1560869364208" expanded="false" signature="2920:2931" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="2960:2966" ph=" }" />
+            <marker date="1560869364208" expanded="false" signature="3012:3023" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="3057:3063" ph=" }" />
+            <marker date="1560869364208" expanded="false" signature="3099:3110" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="3131:3137" ph=" }" />
+            <marker date="1560869364208" expanded="true" signature="3254:3811" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="3851:3947" ph="{...}" />
+            <marker date="1560869364208" expanded="false" signature="3974:3985" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="4017:4023" ph=" }" />
+            <marker date="1560869364208" expanded="true" signature="4054:5168" ph="{...}" />
+            <marker date="1560869364208" expanded="false" signature="5234:5245" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="5281:5287" ph=" }" />
+            <marker date="1560869364208" expanded="false" signature="5333:5344" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="5374:5380" ph=" }" />
+            <marker date="1560869364208" expanded="true" signature="5386:5404" ph="/**...*/" />
+            <marker date="1560869364208" expanded="true" signature="5469:5843" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="5921:6256" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="6294:9452" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="6660:6770" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="6711:6759" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="6830:6969" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="7029:7168" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="7252:7395" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="7452:7984" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="8063:8151" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="8249:8344" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="8413:8522" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="8595:8681" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="8752:8836" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="8917:9011" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="9072:9146" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="9183:9446" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="9553:9962" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="9653:9664" ph="{}" />
+            <marker date="1560869364208" expanded="true" signature="9735:9956" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/GrantedAuthority.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <marker date="1560869364208" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/spring_security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="62" />
+        <state relative-caret-position="-52">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <marker date="1560869364208" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560869364208" expanded="false" signature="166:379" ph="..." />
+            <marker date="1560869364208" expanded="false" signature="617:628" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="637:643" ph=" }" />
+            <marker date="1560869364208" expanded="false" signature="691:702" ph=" { " />
+            <marker date="1560869364208" expanded="false" signature="737:743" ph=" }" />
+            <marker date="1560869364208" expanded="true" signature="813:1195" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="1248:1629" ph="{...}" />
+            <marker date="1560869364208" expanded="true" signature="1708:2196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_utils/src/main/java/cn/itcast/ssm/utuils/BCryptPasswordEncoderUtuils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="209" column="171" lean-forward="false" selection-start-line="209" selection-start-column="171" selection-end-line="209" selection-end-column="171" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/user-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="114" column="169" lean-forward="false" selection-start-line="114" selection-start-column="106" selection-end-line="114" selection-end-column="169" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/orders-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="209" column="162" lean-forward="false" selection-start-line="209" selection-start-column="162" selection-end-line="209" selection-end-column="162" />
           <folding />
         </state>
       </provider>
