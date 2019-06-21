@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a261fa86-2102-4e03-87b0-5ec5b4bb56a9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/src/main/java/cn/itcast/ssm/domain/Permission.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/src/main/java/cn/itcast/ssm/domain/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/src/main/java/cn/itcast/ssm/domain/UserInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/spring_security.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/failer.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/target/heima_ssm_dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/target/heima_ssm_dao-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_dao/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/heima_ssm_domain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/heima_ssm_domain-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_service/target/heima_ssm_service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_service/target/heima_ssm_service-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_service/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_utils/target/heima_ssm_utils-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_utils/target/heima_ssm_utils-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_utils/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_utils/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/target/" />
     <ignored path="$PROJECT_DIR$/heima_ssm/target/" />
@@ -52,17 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/pages/product-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="499" column="0" lean-forward="false" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrdersServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrdersServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_service/src/main/java/cn/itcast/ssm/service/impl/OrdersServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1052">
@@ -173,31 +155,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/java/cn/itcast/ssm/controller/ProductController.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="78" column="54" lean-forward="false" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
+            <state relative-caret-position="286">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="spring_security.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/spring_security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="520">
+              <caret line="32" column="67" lean-forward="true" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="failer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/failer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3276">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationcontext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/applicationcontext.xml">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+            <state relative-caret-position="-428">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -211,6 +203,7 @@
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -260,6 +253,8 @@
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/src/main/java/cn/itcast/ssm/domain/Permission.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/src/main/java/cn/itcast/ssm/domain/Role.java" />
         <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_domain/src/main/java/cn/itcast/ssm/domain/UserInfo.java" />
+        <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/spring_security.xml" />
       </list>
     </option>
   </component>
@@ -677,35 +672,6 @@
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -744,6 +710,8 @@
       <recent name="cn.itcast.ssm.utuils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\dev\ssm\heima_ssm\heima_ssm_web\src\main\webapp" />
+      <recent name="E:\dev\ssm\heima_ssm\heima_ssm_web\src\main\webapp\WEB-INF" />
       <recent name="E:\dev\ssm\heima_ssm\heima_ssm_web\src\main\webapp\pages" />
       <recent name="E:\dev\ssm\heima_ssm\heima_ssm_web\src\main\resources" />
       <recent name="E:\dev\ssm\heima_ssm\heima_ssm_web\src\main\webapp\img" />
@@ -886,12 +854,12 @@
       <workItem from="1560995634765" duration="1537000" />
       <workItem from="1560997485876" duration="1380000" />
       <workItem from="1560998981116" duration="24722000" />
-      <workItem from="1561077257965" duration="8790000" />
+      <workItem from="1561077257965" duration="10049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72227000" />
+    <option name="totallyTimeSpent" value="73486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -975,35 +943,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_dao/heima_ssm_dao.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/heima_ssm_web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -1264,14 +1203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/applicationcontext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1403,6 +1334,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1052">
           <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/failer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3276">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/resources/spring_security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="32" column="67" lean-forward="true" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
           <folding />
         </state>
       </provider>

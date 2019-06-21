@@ -11,5 +11,8 @@
       </list>
     </option>
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/heima_ssm/heima_ssm_web/src/main/webapp/WEB-INF/login.jsp" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="9.0" project-jdk-type="JavaSDK" />
 </project>
