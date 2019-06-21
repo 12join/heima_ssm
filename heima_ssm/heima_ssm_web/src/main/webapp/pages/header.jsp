@@ -22,7 +22,7 @@
 					class="dropdown-toggle" data-toggle="dropdown"> <img
 						src="${pageContext.request.contextPath}/img/user_20190619225155.jpg"
 						class="user-image" alt="User Image"> <span class="hidden-xs">
-							xxx
+							管理员
 					</span>
 
 				</a>

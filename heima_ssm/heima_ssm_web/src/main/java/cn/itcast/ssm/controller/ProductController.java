@@ -13,6 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Controller
@@ -69,7 +70,7 @@ public class ProductController {
         }
         productService.open(delList);
         //mv.setViewName("product-list");
-        return "redirect:findAll";
+        return "redirect:http://localhost/product/findAll?aaa="+new Date().getTime();
     }
 
     @RequestMapping("/close")
