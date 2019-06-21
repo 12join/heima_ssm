@@ -5,3 +5,9 @@
 0:0:0:0:0:0:0:1 - - [21/Jun/2019:20:56:28 +0800] "POST /login HTTP/1.1" 200 12046 http-bio-80-exec-1 114
 0:0:0:0:0:0:0:1 - - [21/Jun/2019:20:56:33 +0800] "GET /product/findAll HTTP/1.1" 403 979 http-bio-80-exec-3 4
 0:0:0:0:0:0:0:1 - - [21/Jun/2019:20:57:45 +0800] "GET /product/findAll HTTP/1.1" 403 979 http-bio-80-exec-6 2
+0:0:0:0:0:0:0:1 - - [21/Jun/2019:21:00:20 +0800] "GET / HTTP/1.1" 302 - http-bio-80-exec-1 160
+0:0:0:0:0:0:0:1 - - [21/Jun/2019:21:00:21 +0800] "GET /login.jsp HTTP/1.1" 200 2504 http-bio-80-exec-3 96
+0:0:0:0:0:0:0:1 - - [21/Jun/2019:21:00:29 +0800] "POST /login HTTP/1.1" 200 12046 http-bio-80-exec-4 778
+0:0:0:0:0:0:0:1 - - [21/Jun/2019:21:02:19 +0800] "GET /logout.do HTTP/1.1" 302 - http-bio-80-exec-7 2
+0:0:0:0:0:0:0:1 - - [21/Jun/2019:21:02:19 +0800] "GET /login.jsp HTTP/1.1" 200 2504 http-bio-80-exec-8 2
+0:0:0:0:0:0:0:1 - - [21/Jun/2019:21:02:28 +0800] "POST /login HTTP/1.1" 200 12046 http-bio-80-exec-9 105
