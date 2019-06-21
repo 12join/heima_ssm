@@ -33,7 +33,7 @@
 				<ul class="treeview-menu">
 
 					<li ><a
-						href="${pageContext.request.contextPath}/user/findAll.do"> <i
+						href="${pageContext.request.contextPath}/user/findAll"> <i
 							class="fa fa-circle-o"></i> 用户管理
 					</a></li>
 					<li ><a
