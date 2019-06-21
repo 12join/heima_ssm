@@ -26,7 +26,7 @@ public class UserServiceImpl implements UserDetailsService{
         UserInfo userInfo = userDao.findUsername(username);
         //创建userDetails对返还的的对象进行封装的类
         //处理自己的用户对象封装成UserDetails
-        User user=new User(userInfo.getUsername(),"{noop}"+userInfo.getPassword(),
+        User user=new User(userInfo.getUsername(),userInfo.getPassword(),
                 userInfo.getStatus()==0 ? false:true,true,true,true,
                 getAuthority(userInfo.getRoles()));
 

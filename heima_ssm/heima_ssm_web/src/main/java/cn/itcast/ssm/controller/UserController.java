@@ -26,4 +26,10 @@ public class UserController {
         return mv;
     }
 
+    @RequestMapping("/save")
+    public String save(UserInfo userInfo) throws Exception {
+        userService.save(userInfo);
+        return "redirect:findAll";
+    }
+
 }
