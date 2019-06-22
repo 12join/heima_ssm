@@ -1,5 +1,6 @@
 package cn.itcast.ssm.service;
 
+import cn.itcast.ssm.domain.Role;
 import cn.itcast.ssm.domain.UserInfo;
 
 import java.util.List;
@@ -12,4 +13,9 @@ public interface UserService {
     void save(UserInfo userInfo);
     //根据id查询详情
    UserInfo findById(String id);
+
+    //查询不在用户角色中的角色
+    List<Role> findOthersRole(String userid);
+    //添加用户和角色的中间表,产生关联
+    void addRoleToUser(String userId, String[] roleIds) ;
 }

@@ -2,6 +2,7 @@ package cn.itcast.ssm.controller;
 
 
 import cn.itcast.ssm.domain.Product;
+import cn.itcast.ssm.domain.Role;
 import cn.itcast.ssm.domain.UserInfo;
 import cn.itcast.ssm.service.UserService;
 import com.github.pagehelper.PageInfo;
@@ -43,6 +44,23 @@ public class UserController {
         mv.addObject("user",userInfo);
         mv.setViewName("user-show");
         return mv;
+    }
+
+    @RequestMapping("/findUserByIdAndAllRole")
+    public ModelAndView findUserByIdAndAllRole(@RequestParam(name = "id",required = true)String userid) throws Exception {
+        ModelAndView mv=new ModelAndView();
+        UserInfo userInfo = userService.findById(userid);
+        List<Role> role = userService.findOthersRole(userid);
+        mv.addObject("user",userInfo);
+        mv.addObject("roleList",role);
+        mv.setViewName("user-role-add");
+        return mv;
+    }
+
+    @RequestMapping("/addRoleToUser")
+    public String addRoleToUser(@RequestParam(name = "userId",required = true) String userId,@RequestParam(name = "ids",required = true) String[] roleIds){
+        userService.addRoleToUser(userId,roleIds);
+        return "redirect:findAll";
     }
 
 }

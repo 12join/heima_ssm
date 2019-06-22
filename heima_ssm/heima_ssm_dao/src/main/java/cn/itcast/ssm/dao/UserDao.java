@@ -1,5 +1,6 @@
 package cn.itcast.ssm.dao;
 
+import cn.itcast.ssm.domain.Role;
 import cn.itcast.ssm.domain.UserInfo;
 import org.apache.ibatis.annotations.*;
 
@@ -41,4 +42,11 @@ public interface UserDao {
 
     @Select("select * from users where id in (select userid from users_role ur where ur.roleid=#{id})")
     List<UserInfo> findRoleById(String id) throws Exception;
+
+    @Select("select * from role where id not in(select roleid from  users_role ur where ur.userid=#{userid})")
+    List<Role> findOthersRole(String userid);
+
+    //添加中间表,产生关联
+    @Insert("insert into  users_role(userId,roleId) values(#{userId},#{roleId})")
+    void addRoleToUser(@Param(value = "userId") String userId,@Param(value = "roleId") String roleId);
 }

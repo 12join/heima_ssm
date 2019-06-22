@@ -1,6 +1,7 @@
 package cn.itcast.ssm.service.impl;
 
 import cn.itcast.ssm.dao.UserDao;
+import cn.itcast.ssm.domain.Role;
 import cn.itcast.ssm.domain.UserInfo;
 import cn.itcast.ssm.service.UserService;
 import com.github.pagehelper.PageHelper;
@@ -38,5 +39,18 @@ public class IuserServiceImpl implements UserService {
         UserInfo userInfo = userDao.findById(id);
 
         return userInfo;
+    }
+
+    @Override
+    public List<Role> findOthersRole(String userid) {
+        List<Role> role = userDao.findOthersRole(userid);
+        return role;
+    }
+
+    @Override
+    public void addRoleToUser(String userId, String[] roleIds) {
+        for (String roleId : roleIds) {
+            userDao.addRoleToUser(userId,roleId);
+        }
     }
 }
