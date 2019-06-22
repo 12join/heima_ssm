@@ -26,4 +26,10 @@ public class RoleServiceImpl implements RoleService {
     public void save(Role role) {
         roleDao.save(role);
     }
+
+    @Override
+    public Role findById(String roleId) throws Exception {
+        Role role = roleDao.findById(roleId);
+        return role;
+    }
 }

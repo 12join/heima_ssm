@@ -1,5 +1,6 @@
 package cn.itcast.ssm.controller;
 
+import cn.itcast.ssm.domain.Orders;
 import cn.itcast.ssm.domain.Role;
 import cn.itcast.ssm.service.RoleService;
 import com.github.pagehelper.PageInfo;
@@ -18,7 +19,7 @@ public class RoleController {
     private RoleService roleService;
 
     @RequestMapping("/findAll")
-    public ModelAndView findAll(@RequestParam(name = "page",required = true,defaultValue = "1")int page, @RequestParam(name = "size",required = true,defaultValue = "1")int size ){
+    public ModelAndView findAll(@RequestParam(name = "page",required = true,defaultValue = "1")int page, @RequestParam(name = "size",required = true,defaultValue = "1")int size ) throws Exception {
         ModelAndView mv=new ModelAndView();
         List<Role> roles = roleService.findAll(page, size);
         PageInfo pageInfo=new PageInfo(roles);
@@ -28,8 +29,17 @@ public class RoleController {
     }
 
     @RequestMapping("/save")
-    public String save(Role role){
+    public String save(Role role) throws Exception {
         roleService.save(role);
         return "redirect:findAll";
+    }
+
+    @RequestMapping("/findById")
+    public ModelAndView findById(@RequestParam(name = "id",required = true)String roleId) throws Exception {
+        ModelAndView mv=new ModelAndView();
+        Role role = roleService.findById(roleId);
+        mv.addObject("role",role);
+        mv.setViewName("role-show");
+        return mv;
     }
 }

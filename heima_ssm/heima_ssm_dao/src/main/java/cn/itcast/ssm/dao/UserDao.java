@@ -38,4 +38,7 @@ public interface UserDao {
             @Result(property = "roles",column = "id",javaType =java.util.List.class,many = @Many(select = "cn.itcast.ssm.dao.RoleDao.findRoleById"))
     })
     UserInfo findById(String id);
+
+    @Select("select * from users where id in (select userid from users_role ur where ur.roleid=#{id})")
+    List<UserInfo> findRoleById(String id) throws Exception;
 }
