@@ -20,4 +20,9 @@ public class PermissionServiceImpl implements PermissionService {
         List<Permission> permissions = permissionsDao.findAll();
         return permissions;
     }
+
+    @Override
+    public void save(Permission permission) throws Exception {
+        permissionsDao.save(permission);
+    }
 }

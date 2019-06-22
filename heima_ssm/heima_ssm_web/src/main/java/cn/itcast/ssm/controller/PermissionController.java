@@ -28,4 +28,10 @@ public class PermissionController {
         mv.setViewName("permission-list");
         return mv;
     }
+
+    @RequestMapping("/save")
+    public String save(Permission permission) throws Exception {
+       permissionService.save(permission);
+        return "redirect:findAll";
+    }
 }
