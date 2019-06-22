@@ -1,5 +1,6 @@
 package cn.itcast.ssm.dao;
 
+import cn.itcast.ssm.domain.Permission;
 import cn.itcast.ssm.domain.Role;
 import org.apache.ibatis.annotations.*;
 
@@ -34,4 +35,12 @@ public interface RoleDao {
             many = @Many(select = "cn.itcast.ssm.dao.UserDao.findRoleById"))
     })
     Role findById(String roleId);
+
+    //根据角色id 查询没有设置的权限
+    @Select("select * from permission where id not in(select permissionid from role_permission rp where rp.roleid=#{roleid})")
+    List<Permission> findOtherRole(String roleid);
+
+    //保存角色和权限表的中间表,建立关联
+    @Insert("insert into role_permission(permissionid,roleid) values(#{permissionId},#{roleId})")
+    void addPermissionToRole(@Param(value = "roleId") String roleId, @Param(value = "permissionId") String permisssionId);
 }

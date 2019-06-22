@@ -1,6 +1,8 @@
 package cn.itcast.ssm.service.impl;
 
+import cn.itcast.ssm.dao.PermissionsDao;
 import cn.itcast.ssm.dao.RoleDao;
+import cn.itcast.ssm.domain.Permission;
 import cn.itcast.ssm.domain.Role;
 import cn.itcast.ssm.service.RoleService;
 import com.github.pagehelper.PageHelper;
@@ -31,5 +33,18 @@ public class RoleServiceImpl implements RoleService {
     public Role findById(String roleId) throws Exception {
         Role role = roleDao.findById(roleId);
         return role;
+    }
+
+    @Override
+    public List<Permission> findOtherRole(String roleid) throws Exception {
+        List<Permission> permissionsDaos = roleDao.findOtherRole(roleid);
+        return permissionsDaos;
+    }
+
+    @Override
+    public void addPermissionToRole(String roleId, String[] permisssionIds) {
+        for (String permisssionId : permisssionIds) {
+            roleDao.addPermissionToRole(roleId,permisssionId);
+        }
     }
 }

@@ -1,7 +1,9 @@
 package cn.itcast.ssm.controller;
 
 import cn.itcast.ssm.domain.Orders;
+import cn.itcast.ssm.domain.Permission;
 import cn.itcast.ssm.domain.Role;
+import cn.itcast.ssm.domain.UserInfo;
 import cn.itcast.ssm.service.RoleService;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,5 +43,22 @@ public class RoleController {
         mv.addObject("role",role);
         mv.setViewName("role-show");
         return mv;
+    }
+
+    @RequestMapping("/findPermisssionByIdAndAllRole")
+    public ModelAndView findPermisssionByIdAndAllRole(@RequestParam(name = "id",required = true)String roleid) throws Exception {
+        ModelAndView mv=new ModelAndView();
+        Role role = roleService.findById(roleid);
+        List<Permission> permissions = roleService.findOtherRole(roleid);
+        mv.addObject("role",role);
+        mv.addObject("permissionList",permissions);
+        mv.setViewName("permission-role-add");
+        return mv;
+    }
+
+    @RequestMapping("/addPermissionToRole")
+    public String addPermissionToRole(@RequestParam(name = "roleId",required = true) String roleId,@RequestParam(name = "permissionids",required = true) String[] permisssionIds){
+        roleService.addPermissionToRole(roleId,permisssionIds);
+        return "redirect:findAll";
     }
 }
