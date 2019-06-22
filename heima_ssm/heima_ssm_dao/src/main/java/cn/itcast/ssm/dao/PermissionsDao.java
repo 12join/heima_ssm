@@ -9,4 +9,7 @@ public interface PermissionsDao {
 
     @Select("select * from permission p inner join role_permission rp on p.id=rp.permissionid where rp.roleid=#{id}")
     List<Permission> findPerById(String id) throws Exception;
+    //查询权限表
+    @Select("select * from permission")
+    List<Permission> findAll() throws Exception;
 }

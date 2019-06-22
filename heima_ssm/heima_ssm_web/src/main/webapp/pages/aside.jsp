@@ -41,7 +41,7 @@
 							class="fa fa-circle-o"></i> 角色管理
 					</a></li>
 					<li ><a
-						href="${pageContext.request.contextPath}/permission/findAll.do">
+						href="${pageContext.request.contextPath}/permission/findAll">
 							<i class="fa fa-circle-o"></i> 资源权限管理
 					</a></li>
 					<li ><a
