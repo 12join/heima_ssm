@@ -10,4 +10,6 @@ public interface UserService {
     List<UserInfo> findAll(int page,int size) throws Exception;
     //保存用户的方法
     void save(UserInfo userInfo);
+    //根据id查询详情
+   UserInfo findById(String id);
 }

@@ -32,4 +32,11 @@ public class IuserServiceImpl implements UserService {
        userInfo.setPassword(bCryptPasswordEncoder.encode(userInfo.getPassword()));
        userDao.save(userInfo);
     }
+
+    @Override
+    public UserInfo findById(String id) {
+        UserInfo userInfo = userDao.findById(id);
+
+        return userInfo;
+    }
 }

@@ -1,6 +1,7 @@
 package cn.itcast.ssm.controller;
 
 
+import cn.itcast.ssm.domain.Product;
 import cn.itcast.ssm.domain.UserInfo;
 import cn.itcast.ssm.service.UserService;
 import com.github.pagehelper.PageInfo;
@@ -33,6 +34,15 @@ public class UserController {
     public String save(UserInfo userInfo) throws Exception {
         userService.save(userInfo);
         return "redirect:findAll";
+    }
+
+    @RequestMapping("/findById")
+    public ModelAndView findById(@RequestParam(name = "id",required = true)String id) throws Exception {
+        ModelAndView mv=new ModelAndView();
+        UserInfo userInfo = userService.findById(id);
+        mv.addObject("user",userInfo);
+        mv.setViewName("user-show");
+        return mv;
     }
 
 }
