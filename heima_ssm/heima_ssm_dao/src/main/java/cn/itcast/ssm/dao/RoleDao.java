@@ -20,4 +20,7 @@ public interface RoleDao {
                     many =@Many(select = "cn.itcast.ssm.dao.PermissionsDao.findPerById"))
     })
     List<Role> findRoleById(String id)throws Exception;
+
+    @Select("select * from role")
+    List<Role> findAll();
 }
