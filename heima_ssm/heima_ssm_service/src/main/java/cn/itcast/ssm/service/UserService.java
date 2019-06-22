@@ -18,4 +18,7 @@ public interface UserService {
     List<Role> findOthersRole(String userid);
     //添加用户和角色的中间表,产生关联
     void addRoleToUser(String userId, String[] roleIds) ;
+
+    //查询存在的角色中的角色
+    List<Role> findRole(String userid);
 }

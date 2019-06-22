@@ -156,6 +156,7 @@
 											<td class="text-center">
 												<a href="${pageContext.request.contextPath}/user/findById?id=${user.id}" class="btn bg-olive btn-xs">详情</a>
 												<a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole?id=${user.id}" class="btn bg-olive btn-xs">添加角色</a>
+												<a href="${pageContext.request.contextPath}/user/updateUserByIdAndAllRole?id=${user.id}" class="btn bg-olive btn-xs">修改角色</a>
 											</td>
 										</tr>
 									</c:forEach>

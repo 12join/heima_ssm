@@ -41,6 +41,7 @@ public class IuserServiceImpl implements UserService {
         return userInfo;
     }
 
+    //查询不存在的角色的角色id
     @Override
     public List<Role> findOthersRole(String userid) {
         List<Role> role = userDao.findOthersRole(userid);
@@ -52,5 +53,11 @@ public class IuserServiceImpl implements UserService {
         for (String roleId : roleIds) {
             userDao.addRoleToUser(userId,roleId);
         }
+    }
+    //查询存在角色的角色id
+    @Override
+    public List<Role> findRole(String userid) {
+        List<Role> role = userDao.findRole(userid);
+        return role;
     }
 }

@@ -46,6 +46,7 @@ public class UserController {
         return mv;
     }
 
+    //添加角色
     @RequestMapping("/findUserByIdAndAllRole")
     public ModelAndView findUserByIdAndAllRole(@RequestParam(name = "id",required = true)String userid) throws Exception {
         ModelAndView mv=new ModelAndView();
@@ -57,10 +58,28 @@ public class UserController {
         return mv;
     }
 
+    //修改角色
+    @RequestMapping("/updateUserByIdAndAllRole")
+    public ModelAndView updateUserByIdAndAllRole(@RequestParam(name = "id",required = true)String userid) throws Exception {
+        ModelAndView mv=new ModelAndView();
+        UserInfo userInfo = userService.findById(userid);
+        List<Role> role = userService.findRole(userid);
+        mv.addObject("user",userInfo);
+        mv.addObject("roleList",role);
+        mv.setViewName("user-role-update");
+        return mv;
+    }
+
     @RequestMapping("/addRoleToUser")
     public String addRoleToUser(@RequestParam(name = "userId",required = true) String userId,@RequestParam(name = "ids",required = true) String[] roleIds){
         userService.addRoleToUser(userId,roleIds);
         return "redirect:findAll";
     }
+
+   /* @RequestMapping("/updateUser")
+    public String updateUser(Role role){
+        userService.
+        return "redirect:findAll";
+    }*/
 
 }
