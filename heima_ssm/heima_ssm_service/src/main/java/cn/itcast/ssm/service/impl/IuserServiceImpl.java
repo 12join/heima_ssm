@@ -3,6 +3,7 @@ package cn.itcast.ssm.service.impl;
 import cn.itcast.ssm.dao.UserDao;
 import cn.itcast.ssm.domain.UserInfo;
 import cn.itcast.ssm.service.UserService;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -18,7 +19,9 @@ public class IuserServiceImpl implements UserService {
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
     @Override
-    public List<UserInfo> findAll() throws Exception {
+    public List<UserInfo> findAll(int page,int size) throws Exception {
+        //参数pageNum 是页码值   参数pageSize 代表是每页显示条数
+        PageHelper.startPage(page,size);
         List<UserInfo> users = userDao.findAll();
         return users;
     }
