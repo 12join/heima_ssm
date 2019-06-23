@@ -96,10 +96,9 @@
 				action="${pageContext.request.contextPath}/user/updateUser"
 				method="post">
 				<!-- 正文区域 -->
-				<section class="content"> 
-				
-				<input type="hidden" name="userId" value="${user.id}">
-				
+				<section class="content">
+
+					<input type="hidden" name="userId" value="${user.id}">
 					<table id="dataList"
 							class="table table-bordered table-striped table-hover dataTable">
 							<thead>
@@ -131,7 +130,7 @@
 						</table>
 				<!--订单信息/--> <!--工具栏-->
 				<div class="box-tools text-center">
-					<button type="submit" class="btn bg-maroon">保存</button>
+					<button type="submit" class="btn bg-maroon">保存修改</button>
 					<button type="button" class="btn bg-default"
 						onclick="history.back(-1);">返回</button>
 				</div>

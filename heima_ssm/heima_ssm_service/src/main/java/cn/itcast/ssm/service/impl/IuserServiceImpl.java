@@ -54,10 +54,11 @@ public class IuserServiceImpl implements UserService {
             userDao.addRoleToUser(userId,roleId);
         }
     }
-    //查询存在角色的角色id
+
     @Override
     public List<Role> findRole(String userid) {
         List<Role> role = userDao.findRole(userid);
         return role;
     }
+
 }

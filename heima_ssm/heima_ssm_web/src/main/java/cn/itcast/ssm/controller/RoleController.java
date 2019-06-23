@@ -61,4 +61,6 @@ public class RoleController {
         roleService.addPermissionToRole(roleId,permisssionIds);
         return "redirect:findAll";
     }
+
+
 }
