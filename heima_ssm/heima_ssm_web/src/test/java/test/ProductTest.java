@@ -18,10 +18,7 @@ public class ProductTest {
 
     @Test
     public void testFindAll(){
-        List<Product> list = productService.findAll();
-        for (Product product : list) {
-            System.out.println(product);
-        }
+
     }
 
 }
