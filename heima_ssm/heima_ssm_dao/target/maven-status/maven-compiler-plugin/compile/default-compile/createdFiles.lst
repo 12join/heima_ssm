@@ -5,3 +5,4 @@ cn\itcast\ssm\dao\ProductDao.class
 cn\itcast\ssm\dao\PermissionsDao.class
 cn\itcast\ssm\dao\MemberDao.class
 cn\itcast\ssm\dao\TravellerDao.class
+cn\itcast\ssm\dao\SyslogDao.class

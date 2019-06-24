@@ -1,6 +1,7 @@
 cn\itcast\ssm\domain\Role.class
 cn\itcast\ssm\domain\Orders.class
 cn\itcast\ssm\domain\Product.class
+cn\itcast\ssm\domain\Syslog.class
 cn\itcast\ssm\domain\UserInfo.class
 cn\itcast\ssm\domain\Permission.class
 cn\itcast\ssm\domain\Member.class

@@ -1,5 +1,7 @@
+cn\itcast\ssm\controller\SyslogController.class
 cn\itcast\ssm\controller\PermissionController.class
 cn\itcast\ssm\controller\RoleController.class
 cn\itcast\ssm\controller\ProductController.class
 cn\itcast\ssm\controller\UserController.class
 cn\itcast\ssm\controller\OrderController.class
+cn\itcast\ssm\controller\LogAop.class
